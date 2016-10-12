@@ -1,0 +1,19 @@
+{
+  "name" : "Amex.Api.Client.Core",
+  "title": "American Express API core library",
+  "copyright": "Copyright (c) 2016 American Express Travel Related Services Company, Inc.",
+  "version": "0.1.0-*",
+  "language": "en-US",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+ "buildOptions": {
+    "outputName": "Amex.Api.Client.Core"
+},
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
