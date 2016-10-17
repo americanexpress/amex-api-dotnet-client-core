@@ -18,3 +18,5 @@ Any contributions made under this project will be governed by the [Apache Licens
 
 ## Code of Conduct
 This project adheres to the [American Express Community Guidelines](https://github.com/americanexpress/amex-api-dotnet-client-core/wiki/Code-of-Conduct). By participating, you are expected to honor these guidelines.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-85897603-1/amex-api-dotnet-client-core/README.md?useReferrer)](https://github.com/americanexpress/amex-api-dotnet-client-core)
