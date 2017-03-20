@@ -42,7 +42,7 @@ namespace ConsoleApplication
                     {
                         client.DefaultRequestHeaders.Add(header.Key, header.Value);
                     }
-                    HttpResponseMessage response = client.PostAsync(url, new StringContent(payload, Encoding.UTF8, "application/json")).Result;            
+                    HttpResponseMessage response = client.PostAsync(url, new StringContent(payload, Encoding.UTF8, "application/vnd.amex.ace.organization.v2.hal+json")).Result;            
                     result = response.Content.ReadAsStringAsync().Result;
                 }
             });

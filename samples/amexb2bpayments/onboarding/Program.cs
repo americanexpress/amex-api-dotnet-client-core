@@ -51,7 +51,7 @@ namespace ConsoleApplication
         private static string InvokeResource(string url, string payload, HttpMethod method) 
         {
             string result = null;
-            string contentType = "application/json";           
+            string contentType = "application/vnd.amex.ace.organization.v2.hal+json";           
             var authProvider = new HmacAuthProvider();
             var headers = authProvider.GenerateAuthHeaders(apiKey, secret, payload, url, method.ToString());
 
