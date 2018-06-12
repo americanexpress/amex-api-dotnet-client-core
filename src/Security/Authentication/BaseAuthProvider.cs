@@ -40,7 +40,7 @@ namespace Amex.Api.Client.Core.Security.Authentication
         /// <returns>Timestamp</returns>
         public virtual string CreateTimestamp()
         {
-            return (DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond).ToString();
+            return DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString();
         }
 
         /// <summary>
