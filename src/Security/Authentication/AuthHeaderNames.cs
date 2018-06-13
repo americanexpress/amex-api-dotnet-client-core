@@ -15,7 +15,7 @@
 namespace Amex.Api.Client.Core.Security.Authentication
 {
     /// <summary>
-    /// Constains authentication header property names. 
+    /// Contains authentication header property names. 
     /// </summary>
     public class AuthHeaderNames
     {

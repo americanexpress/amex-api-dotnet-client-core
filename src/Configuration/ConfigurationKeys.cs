@@ -15,7 +15,7 @@
 namespace Amex.Api.Client.Core.Configuration
 {
     /// <summary>
-    /// Constains application configuration key names. These keys must be present in the configuration provider.
+    /// Contains application configuration key names. These keys must be present in the configuration provider.
     /// </summary>
     public class ConfigurationKeys
     {
